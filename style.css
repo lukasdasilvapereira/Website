@@ -54,11 +54,14 @@ a {
 }
 
 .ipt {
-    font-size: 1.2em;
+    font-size: 1.1em;
     border: 1px solid orange;
     padding: 15px;
+    width: 260px;
     background-color: transparent;
     color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 ::placeholder {
@@ -67,8 +70,12 @@ a {
 
 .btn {
     font-size: 1.2em;
-    width: 150px;
+    width: 160px;
+    height: 65px;
+    margin-right: 100px;
     background-color: orange;
     color: white;
     cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
