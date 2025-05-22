@@ -79,3 +79,44 @@ a {
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    padding: 180px 0px;
+    color: white;
+}
+
+.dev {
+    color: orange;
+}
+
+.btn2 {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.btn2:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+}
+
+.title {
+    font-size: 4em;
+}
+
+.form {
+    background-color: black;
+}

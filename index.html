@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PraRoz</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <section class="header-section">
@@ -44,10 +45,36 @@
 
     <section class="main-section">
         <div class="main">
-            <h1 class="title">Web Design & <span class="dev">Development</span>Course</h1>
-            <p class="descricao">Web Design is a specialisation of the design stream. They also use HTL, CSS, WSYIWYG editing software, mark up validators etc, to create design elements.</p>
-            <button class="btn2">JOIN US</button>
-            <form action="#" method="post" class="form-section"></form>
+            <div class="first">
+                <h1 class="title">Web Design & <span class="dev">Development</span> Course</h1>
+                <p class="descricao">Web Design is a specialisation of the design stream. They also use HTL, CSS, WSYIWYG editing software, mark up validators etc, to create design elements.</p>
+                <button class="btn2">JOIN US</button>
+            </div>
+            <div class="form">
+            <form action="#" method="post" class="form-section">
+                <a href="#"><button class="here">Login Here</button></a>
+                <div class="lg">
+                    <label for="email" class="email">Enter Email Here</label>
+                <input type="email" name="email" id="email" placeholder="">
+            </div>
+                <div class="lg">
+                    <label for="senha">Enter Password Here</label>
+                    <input type="password" name="senha" id="senha" placeholder="">
+                </div>
+                <button class="register">Login</button>
+                <p class="donot">Do not have an account?
+                    <span class="orange">Sign up</span> here
+                </p>
+                <h4 class="with">Log in with</h4>
+                <div class="brands">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-skype"></i>
+                </div>
+            </form>
+            </div>
         </div>
     </section>
 </body>
