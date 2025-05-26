@@ -60,8 +60,6 @@ a {
     width: 260px;
     background-color: transparent;
     color: white;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 ::placeholder {
@@ -78,6 +76,12 @@ a {
     cursor: pointer;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
+    border: none;
+    transition: 0.4s ease;
+}
+
+.btn:hover {
+    color: black;
 }
 
 .main {
@@ -121,8 +125,8 @@ a {
 .form {
     background-color: rgba(0, 0, 0, 0.829);
     width: 400px;
-    height: 620px;
-    padding: 30px;
+    height: 700px;
+    padding: 50px;
 }
 
 form {
@@ -142,6 +146,11 @@ form {
     border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
+    transition: 0.4s ease;
+}
+
+.here:hover {
+    color: black;
 }
 
 .lg {
@@ -195,6 +204,12 @@ form {
     color: black;
     font-size: 1.5em;
     font-weight: 600;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.register:hover {
+    color: white;
 }
 
 .donot {
@@ -206,4 +221,21 @@ form {
 
 .orange {
     color: orangered;
+    transition: 0.4s ease;
+}
+
+.orange:hover {
+    color: blue;
+}
+
+.brands {
+    display: flex;
+    gap: 15px;
+    font-size: 1.1em;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.brands i:hover {
+    color: orange;
 }
